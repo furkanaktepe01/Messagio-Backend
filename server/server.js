@@ -29,7 +29,7 @@ app.use(cors());
 
 // DB Config
 
-const connection_url = "mongodb+srv://admin:PAuyrga1cAlqxbXq@messajio.lyg5e.mongodb.net/MessajioDB?retryWrites=true&w=majority";
+const connection_url = "mongodb+srv://admin:PAuyrga1cAlqxbXq@messajio.lyg5e.mongodb.net/?retryWrites=true&w=majority";
 mongoose.connect(connection_url, {
     useNewUrlParser: true,
     useUnifiedTopology: true
